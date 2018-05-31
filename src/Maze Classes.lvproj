@@ -19,7 +19,7 @@
 		<Item Name="load images.vi" Type="VI" URL="../utilities/load images.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Maze.lvclass" Type="LVClass" URL="../Maze/Maze.lvclass"/>
-		<Item Name="MazeGame.lvclass" Type="LVClass" URL="../MazeGame/MazeGame.lvclass"/>
+		<Item Name="CreateMaze.vi" Type="VI" URL="../CreateMaze.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
