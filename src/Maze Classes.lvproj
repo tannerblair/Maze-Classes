@@ -12,13 +12,24 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MapSite.lvclass" Type="LVClass" URL="../MapSite/MapSite.lvclass"/>
-		<Item Name="Door.lvclass" Type="LVClass" URL="../Door/Door.lvclass"/>
-		<Item Name="Room.lvclass" Type="LVClass" URL="../Room/Room.lvclass"/>
-		<Item Name="Wall.lvclass" Type="LVClass" URL="../Wall/Wall.lvclass"/>
+		<Item Name="Base" Type="Folder">
+			<Item Name="MapSite.lvclass" Type="LVClass" URL="../Base/MapSite/MapSite.lvclass"/>
+			<Item Name="Door.lvclass" Type="LVClass" URL="../Base/Door/Door.lvclass"/>
+			<Item Name="Room.lvclass" Type="LVClass" URL="../Base/Room/Room.lvclass"/>
+			<Item Name="Wall.lvclass" Type="LVClass" URL="../Base/Wall/Wall.lvclass"/>
+			<Item Name="Maze.lvclass" Type="LVClass" URL="../Base/Maze/Maze.lvclass"/>
+		</Item>
+		<Item Name="Bombed" Type="Folder">
+			<Item Name="BombedWall.lvclass" Type="LVClass" URL="../Bombed/BombedWall/BombedWall.lvclass"/>
+			<Item Name="RoomWithABomb.lvclass" Type="LVClass" URL="../Bombed/RoomWithABomb/RoomWithABomb.lvclass"/>
+		</Item>
+		<Item Name="Enchanted" Type="Folder">
+			<Item Name="Spell.lvclass" Type="LVClass" URL="../Enchanted/Spell/Spell.lvclass"/>
+			<Item Name="EnchantedRoom.lvclass" Type="LVClass" URL="../Enchanted/EnchantedRoom/EnchantedRoom.lvclass"/>
+			<Item Name="DoorNeedingSpell.lvclass" Type="LVClass" URL="../Enchanted/DoorNeedingSpell/DoorNeedingSpell.lvclass"/>
+		</Item>
 		<Item Name="load images.vi" Type="VI" URL="../utilities/load images.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="Maze.lvclass" Type="LVClass" URL="../Maze/Maze.lvclass"/>
 		<Item Name="CreateMaze.vi" Type="VI" URL="../CreateMaze.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
